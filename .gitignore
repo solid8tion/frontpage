@@ -1,0 +1,3 @@
+# ignore pdf and jpg
+*.pdf
+*.jpg
