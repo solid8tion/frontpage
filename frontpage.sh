@@ -8,7 +8,7 @@ todayname=$(date '+%Y%m%d')
 yesterstring=$(date -d "yesterday 13:00" '+%Y/%m/%d')
 yestername=$(date -d "yesterday 13:00" '+%Y%m%d')
 
-pathname=/home/pi/Documents/Frontpage/
+pathname=/home/pi/frontpage/
 todaypdf="${pathname}${todayname}.pdf"
 todayjpg="${pathname}${todayname}.jpg"
 yesterpdf="${pathname}${yestername}.pdf"
