@@ -13,6 +13,15 @@ Display New York Times frontpage on Raspberry Pi (Raspbian)
 
 `sudo apt-get install imagemagick`
 
+## Setup
+
+### Change Path Name
+
+`nano frontpage.sh`
+
+And change the `pathname` variable to the path that contains this project
+
+
 ## Run
 
 `sh frontpage.sh`
