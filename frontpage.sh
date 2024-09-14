@@ -44,4 +44,4 @@ else
 fi
 
 pkill -9 feh
-DISPLAY=:0.0 /usr/bin/feh -qYzF --zoom fill "$displayjpg"
+DISPLAY=:0.0 /usr/bin/feh -qYzF --zoom fill --offset -0 "$displayjpg"
